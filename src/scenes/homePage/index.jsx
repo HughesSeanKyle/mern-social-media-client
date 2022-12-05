@@ -1,7 +1,13 @@
-import React from 'react';
+import { Box, useMediaQuery } from '@mui/material';
+import { useSelector } from 'react-redux';
+import Navbar from '../navbar';
 
 const HomePage = () => {
-	return <div>homepage</div>;
+	return (
+		<Box>
+			<Navbar />
+		</Box>
+	);
 };
 
 export default HomePage;
