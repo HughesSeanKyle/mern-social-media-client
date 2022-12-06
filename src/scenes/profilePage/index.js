@@ -6,6 +6,7 @@ const ProfilePage = () => {
 	return (
 		<Box>
 			<Navbar />
+			PROFILE
 		</Box>
 	);
 };

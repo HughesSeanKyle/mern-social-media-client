@@ -5,6 +5,9 @@ const initialState = {
 	user: null,
 	token: null,
 	posts: [],
+	// Set this state in comp not as global
+	// signupFeedback: null,
+	// signinFeedback: null,
 };
 
 export const authSlice = createSlice({

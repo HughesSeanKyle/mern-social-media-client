@@ -58,7 +58,7 @@ const Navbar = () => {
 						},
 					}}
 				>
-					NFTeed
+					NiFTy$wap
 				</Typography>
 				{isNonMobileScreens && (
 					<FlexBetween
